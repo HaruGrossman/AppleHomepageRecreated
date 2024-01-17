@@ -9,16 +9,16 @@ export default function NavigationBar () {
     return (
         <>
         <p>Apple Icon</p>
-        <button>Store</button>
-        <button>Mac</button>
-        <button>iPad</button>
-        <button>Watch</button>
+        <button className="dropDownMenu">Store</button>
+        <button className="dropDownMenu">Mac</button>
+        <button className="dropDownMenu">iPad</button>
+        <button className="dropDownMenu">Watch</button>
         <button>Vision</button>
-        <button>AirPods</button>
-        <button>TV & Home</button>
-        <button>Entertainment</button>
-        <button>Accessories</button>
-        <button>Support</button>
+        <button className="dropDownMenu">AirPods</button>
+        <button className="dropDownMenu">TV & Home</button>
+        <button className="dropDownMenu">Entertainment</button>
+        <button className="dropDownMenu">Accessories</button>
+        <button className="dropDownMenu">Support</button>
         <button>Looking glass</button>
         <button>Shopping bag</button>
         </>
