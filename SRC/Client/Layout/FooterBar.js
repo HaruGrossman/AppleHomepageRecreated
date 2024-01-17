@@ -7,3 +7,10 @@
 
 // First lets build out component that will need to be exported
 
+export default function Footer() {
+    return (
+        <>
+        <p>I am the Footer section</p>
+        </>
+    )
+}
