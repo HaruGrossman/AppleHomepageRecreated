@@ -8,12 +8,12 @@
 export default function NavigationBar () {
     return (
         <>
-        <p>Apple Icon</p>
+        <p>Apple Icon</p> { /* leads back to main/homepage */ }
         <button className="dropDownMenu">Store</button>
         <button className="dropDownMenu">Mac</button>
         <button className="dropDownMenu">iPad</button>
         <button className="dropDownMenu">Watch</button>
-        <button>Vision</button>
+        <button className="dropDownMenu">Vision</button>
         <button className="dropDownMenu">AirPods</button>
         <button className="dropDownMenu">TV & Home</button>
         <button className="dropDownMenu">Entertainment</button>
